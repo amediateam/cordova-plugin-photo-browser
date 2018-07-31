@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin
         id="cordova-plugin-photo-browser"
-        ersion="1.3.7"
+        ersion="1.3.8"
         xmlns="http://cordova.apache.org/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
 >
@@ -78,10 +78,7 @@
         <source-file src="src/android/metadata/Datum.java"                target-dir="src/com/creedon/cordova/plugin/photobrowser/metadata"/>
         <source-file src="src/android/metadata/ActionSheet.java"          target-dir="src/com/creedon/cordova/plugin/photobrowser/metadata"/>
         <source-file src="src/android/metadata/PhotoDetail.java"          target-dir="src/com/creedon/cordova/plugin/photobrowser/metadata"/>
-        <source-file src="src/android/drawable-mdpi/ic_action_add.png"    target-dir="res/drawable-mdpi" />
-        <source-file src="src/android/drawable-hdpi/ic_action_add.png"    target-dir="res/drawable-hdpi" />
-        <source-file src="src/android/drawable-xhdpi/ic_action_add.png"   target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/drawable-xxhdpi/ic_action_add.png"  target-dir="res/drawable-xxhdpi" />
+
         <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
         <config-file target="res/values/styles.xml" parent="/resources">
             <style name="AppTheme" parent="Theme.AppCompat.Light">
