@@ -48,7 +48,7 @@
     </platform>
 
     <platform name="android">
-        <config-file target="config.xml" parent="/*">
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="PhotoBrowserPlugin">
                 <param name="android-package" value="com.creedon.cordova.plugin.photobrowser.PhotoBrowserPlugin"/>
             </feature>
